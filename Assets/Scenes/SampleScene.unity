@@ -529,9 +529,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 8616102}
-  offset: {x: 0, y: 1, z: -5}
-  topDown: {x: 0, y: 20, z: 0}
+  offsetP: {x: 0, y: 1, z: -5}
+  offsetR: {x: 0, y: 0, z: 0, w: 0}
+  topDownP: {x: 0, y: 30, z: 0}
+  topDownR: {x: 90, y: -90, z: 90, w: 90}
   switchPers: 0
+  timeBetwQ: 0.5
+  timestamp: 0
 --- !u!1 &1093914819
 GameObject:
   m_ObjectHideFlags: 0
